@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/ditdevops1/ci-cd-html-css-demo.git'
+                git branch: 'main', url: 'https://github.com/matrixunplgd/ci-cd-html-css-demo.git'
             }
         }
 
